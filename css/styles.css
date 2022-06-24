@@ -92,6 +92,7 @@ img {
   line-height: 1.14;
   color: var(--tittle-text-color);
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .site-nav .link.current.header-link::after {
@@ -208,6 +209,8 @@ img {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list-header {
@@ -221,7 +224,6 @@ img {
 .contact-list-header:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list-header:hover .envelope-header-icon,
@@ -242,6 +244,7 @@ img {
   fill: var(--primary-text-color);
 
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-icon {
@@ -256,12 +259,12 @@ img {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list:hover,
 .contact-list:focus {
   color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------герой------ */
@@ -518,15 +521,10 @@ img {
   /* margin-bottom: 94px; */
 }
 
-/* .clients-item {
-  fill: #afb1b8;
-} */
-
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -539,6 +537,8 @@ img {
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .employees-soc-list {
@@ -564,8 +564,8 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background-color: tomato; */
   color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .employees-soc-icon {
@@ -576,7 +576,6 @@ img {
 .employees-soc-link:focus {
   background-color: #2196f3;
   color: var(--primary-bg-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------footer------ */
@@ -662,12 +661,12 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-icon {
@@ -745,6 +744,7 @@ img {
   background: #f5f4fa;
 
   padding: 6px 22px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -752,7 +752,6 @@ img {
 .hero-button .current {
   color: #ffffff;
   background-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-list {
